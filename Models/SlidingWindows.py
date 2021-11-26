@@ -15,7 +15,6 @@ class WindowSlider(object):
         arr = np.cumsum(arr)
         return arr - arr[0]
                 
-
     def collect_windows(self, X, window_size=5, offset=0, previous_y=False):
         cols = len(list(X)) - 1
         N = len(X)

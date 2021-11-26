@@ -2,7 +2,6 @@ import numpy as np
 import copy as cp
 import pandas as pd
 class Network(object):
-
     def __init__(self, input_dim, hidden_dim=10, output_dim=1):
         '''
         Neural Network object 
